@@ -1,0 +1,3 @@
+from PIL import Image
+im = Image.open(r"C:\Users\MY\Desktop\ai.png")
+print(im.height,im.width,im.mode,im.format)
