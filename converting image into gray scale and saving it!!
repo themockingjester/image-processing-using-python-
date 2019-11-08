@@ -1,0 +1,5 @@
+from PIL import Image
+im = Image.open(r"C:\Users\MY\Desktop\ai.png")
+im=im.convert('L')                           #converts image into grayscale
+im.save(r"C:\Users\MY\Desktop\ai2.png")      #saving the gray scale with new name ai2.png on desktop
+im.show()
