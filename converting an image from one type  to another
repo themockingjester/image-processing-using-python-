@@ -1,0 +1,12 @@
+from PIL import Image
+a=r"#address of image"
+
+
+im = Image.open(a)
+if im!="RGB":
+    
+    im.convert("RGB")
+    im.save(r"#desired location with desired name")
+else:
+    
+    im.save(r"#desired location with desired name")
